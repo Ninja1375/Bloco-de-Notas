@@ -1,0 +1,76 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        #notepad-container {
+            width: 88%;
+            max-width: 360px;
+            margin-top: 20px;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        #buttons-left, #buttons-right {
+            display: flex;
+            align-items: center;
+        }
+
+        #buttons button, #note-select {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            transition: background-color 0.3s;
+            margin-right: 5px;
+        }
+
+        #buttons button:hover, #note-select:hover {
+            background-color: #0056b3;
+        }
+
+        #note-select {
+            width: 88%;
+            max-width: 300px;
+            background-color: white;
+            color: black;
+            border: 1px solid #007BFF;
+        }
+
+        #notepad {
+            width: 88%;
+            height: 300px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #notepad textarea {
+            width: 88%;
+            height: 100%;
+            border: none;
+            outline: none;
+            resize: none;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 8px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
